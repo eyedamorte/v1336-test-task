@@ -1,0 +1,16 @@
+.description {
+    display: flex;
+    flex-direction: column;
+
+    &__connection {
+      color: green;
+
+      span {
+        margin: 0 5px;
+      }
+
+      &--without {
+        color: red;
+      }
+    }
+  }
